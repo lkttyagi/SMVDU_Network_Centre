@@ -1,0 +1,141 @@
+#widget-title {
+    display: block;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px;
+    margin: 0;
+
+    background: rgb(113, 113, 113); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(113, 113, 113, 1) 0%, rgba(113, 113, 113, 1) 52%, rgba(94, 94, 94, 1) 52%, rgba(94, 94, 94, 1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(113, 113, 113, 1)), color-stop(52%, rgba(113, 113, 113, 1)), color-stop(52%, rgba(94, 94, 94, 1)), color-stop(100%, rgba(94, 94, 94, 1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(113, 113, 113, 1) 0%, rgba(113, 113, 113, 1) 52%, rgba(94, 94, 94, 1) 52%, rgba(94, 94, 94, 1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(113, 113, 113, 1) 0%, rgba(113, 113, 113, 1) 52%, rgba(94, 94, 94, 1) 52%, rgba(94, 94, 94, 1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(113, 113, 113, 1) 0%, rgba(113, 113, 113, 1) 52%, rgba(94, 94, 94, 1) 52%, rgba(94, 94, 94, 1) 100%); /* IE10+ */
+    background: linear-gradient(top, rgba(113, 113, 113, 1) 0%, rgba(113, 113, 113, 1) 52%, rgba(94, 94, 94, 1) 52%, rgba(94, 94, 94, 1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#717171', endColorstr = '#5e5e5e', GradientType = 0); /* IE6-9 */
+}
+
+.asset {
+    padding: 0 10px;
+}
+
+.business-listing-title-container{
+    background-color:#000;
+    color:#fff;
+    font-weight:bold;
+    font-style:italic;
+    font-size:18px;
+    line-height:32px;
+    padding-left:15px;
+    width:auto;
+    border-bottom:3px solid #ed1f23;
+}
+
+
+#assetsListings{
+    border:1px solid #cccccc;
+    background-color:#f1f1f1;
+    width:auto;
+    padding:15px;
+}
+#assetsListings .assetNew{
+    margin-bottom:10px;
+    height:50px;
+    border-bottom:1px solid #cccccc;
+}
+#assetsListings .assetNew:last-child{
+    margin-bottom:0px;
+    height:40px;
+    border-bottom:0;
+}
+#assetsListings .assetNew .assetNew-icon{
+    float:left;
+    width:32px;
+    
+}
+#assetsListings .assetNew .assetNew-title{
+    float:left;
+    margin-left:15px;
+    width:400px;
+    color:#000;
+    font-weight:bold;
+    
+}
+#assetsListings .assetNew .assetNew-download{
+    float:left;
+    margin:5px 0 0 20px;
+    width:111px;
+    height:23px;
+    background-image:url('/img/download.png');
+}
+#assetsListings .assetNew .assetNew-download a{
+    display:block;
+    width:111px;
+    height:23px;
+    line-height: 0; 
+    font-size: 0;
+    color: transparent; 
+}
+
+
+
+@media screen and (max-width: 400px){
+
+
+.business-listing-title-container{
+    background-color:#000;
+    color:#fff;
+    font-weight:bold;
+    font-style:italic;
+    font-size:16px;
+    line-height:32px;
+    padding-left:15px;
+    width:auto;
+    border-bottom:3px solid #ed1f23;
+}
+
+#assetsListings{
+    border:1px solid #cccccc;
+    background-color:#f1f1f1;
+    width:auto;
+    padding:15px;
+}
+#assetsListings .assetNew{
+    margin-bottom:10px;
+    height:50px;
+    border-bottom:1px solid #cccccc;
+}
+#assetsListings .assetNew:last-child{
+    margin-bottom:0px;
+    height:40px;
+    border-bottom:0;
+}
+#assetsListings .assetNew .assetNew-icon{
+    float:left;
+    width:32px;
+    
+}
+#assetsListings .assetNew .assetNew-title{
+    float:left;
+    margin-left:15px;
+    width:175px;
+    color:#000;
+    font-weight:bold;   
+}
+#assetsListings .assetNew .assetNew-download{
+    float:left;
+    margin:5px 0 0 20px;
+    width:111px;
+    height:23px;
+    background-image:url('/img/download.png');
+}
+#assetsListings .assetNew .assetNew-download a{
+    display:block;
+    width:111px;
+    height:23px;
+    line-height: 0; 
+    font-size: 0;
+    color: transparent; 
+}
+
+}
